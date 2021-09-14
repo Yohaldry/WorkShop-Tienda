@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react'
 
-import {TitleH, HEADERstyle, BTNcar, UBICACION } from '../Styles/Rejistro_Styled'
+import {TitleH, HEADERstyle, BTNcar, UBICACION, SEPARADOR } from '../Styles/Rejistro_Styled'
 
 const Header = () => {
     return ( 
@@ -8,11 +8,12 @@ const Header = () => {
 
         <HEADERstyle>
             <TitleH>Tiendita</TitleH>
-
-            <UBICACION>México City Marriott Reforma Hotel... |</UBICACION>
+            <i class="ubi fas fa-map-marker-alt"></i>
+            <UBICACION>México City Marriott Reforma Hotel... </UBICACION>
+        
             <BTNcar>Car</BTNcar>
         </HEADERstyle>
-
+        
  </Fragment>
      );
 }

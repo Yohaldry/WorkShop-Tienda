@@ -27,8 +27,9 @@ const Bcar = styled.button`
      font-family: 'Harmattan', sans-serif;
      width: 70px;
      height: 30px;
+     margin-left: -75px;
      border-radius: 10px;
-     margin-top: 5px;
+     margin-top: 8px;
      border: none;
 `;
 
@@ -38,11 +39,11 @@ const Ubicacion = styled.label`
  
      @import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@700&display=swap');
      font-family: 'Harmattan', sans-serif;
-     margin-left: 400px;
+    
      width: 370px;
-     font-size: 25px;
-     margin-top: 5px;
-     margin-left: 400px;
+     font-size: 20px;
+     margin-top: 8px;
+     margin-left: 5px;
 `;
 
 const Slayder = styled.img`
@@ -61,7 +62,53 @@ const Adquiere = styled.h2`
     margin-left: 190px;
 `;
 
+
+
+const containercontenido = styled.main`
+     
+    background-color: #ffffff;
+    color: #a20b0b;
+`;
+
+const descuento = styled.p`
+     
+     width: 60px;
+     text-align: center;
+     border-radius: 9px;
+    background-color: #F0E3FE;
+    color: #5E18BB;
+`;
+
+const Prec = styled.h5`
+     
+    font-size: 12px;
+    
+`;
+
+const PrecA = styled.h5`
+     
+    font-size: 10px;
+    color: #B8B4B4;
+    text-decoration: line-through;
+    
+`;
+
+const Sep = styled.p`
+     
+    font-size: 20px;
+    color: #B8B4B4;
+    margin-left: 10px;
+    
+`;
+
+
+
 export const ImgS = Slayder
+export const SEPARADOR = Sep
+export const Precio = Prec
+export const PreDes = PrecA
+export const Desuento = descuento
+export const ContainerContenido = containercontenido
 export const TitleImg = Adquiere
 export const TitleH = TitleHeader
 export const HEADERstyle = head
