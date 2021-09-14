@@ -7,12 +7,63 @@ const TitleHeader = styled.h2`
      @import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@700&display=swap');
      font-family: 'Harmattan', sans-serif;
      display: flex;
+     margin-top: 5px;
+     margin-left: 80px;
 `;
 
-const head = styled.main`
+const head = styled.header`
      
      display: flex;
+     background-color: #ffffff;
+     width: 100%;
+    
 `;
 
+const Bcar = styled.button`
+     
+     color: #ffffff;
+     background-color: blue;
+     @import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@700&display=swap');
+     font-family: 'Harmattan', sans-serif;
+     width: 70px;
+     height: 30px;
+     border-radius: 10px;
+     margin-top: 5px;
+     border: none;
+`;
+
+const Ubicacion = styled.label`
+     
+     color: #090909;
+ 
+     @import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@700&display=swap');
+     font-family: 'Harmattan', sans-serif;
+     margin-left: 400px;
+     width: 370px;
+     font-size: 25px;
+     margin-top: 5px;
+     margin-left: 400px;
+`;
+
+const Slayder = styled.img`
+     
+     width: 940px;
+     margin-left: 70px;
+     margin-top: 30px;
+     
+`;
+
+const Adquiere = styled.h2`
+      @import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@700&display=swap');
+     font-family: 'Harmattan', sans-serif;
+    color: #ffffff;
+    margin-top: -110px;
+    margin-left: 190px;
+`;
+
+export const ImgS = Slayder
+export const TitleImg = Adquiere
 export const TitleH = TitleHeader
-export const Header = head
+export const HEADERstyle = head
+export const BTNcar = Bcar
+export const UBICACION = Ubicacion

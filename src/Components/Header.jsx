@@ -1,15 +1,19 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 
-import {TitleH, Header} from '../Styles/Rejistro_Styled'
+import {TitleH, HEADERstyle, BTNcar, UBICACION } from '../Styles/Rejistro_Styled'
 
 const Header = () => {
     return ( 
-        <Header>
+ <Fragment>
+
+        <HEADERstyle>
             <TitleH>Tiendita</TitleH>
 
-            <label>México City Marriott Reforma Hotel...</label>
-            <button>Car</button>
-        </Header>
+            <UBICACION>México City Marriott Reforma Hotel... |</UBICACION>
+            <BTNcar>Car</BTNcar>
+        </HEADERstyle>
+
+ </Fragment>
      );
 }
  
