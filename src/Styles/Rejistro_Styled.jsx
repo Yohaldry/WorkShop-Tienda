@@ -110,7 +110,7 @@ const mainDetalles = styled.body`
     font-size: 16px;
     background-color: #ffffff;
     width: 700px;
-    height: 400px;
+    height: 450px;
     margin: 50px;
     margin-left: 200px;
     border-radius: 40px;
@@ -139,7 +139,47 @@ const bx = styled.button`
     
 `;
 
+const titleDetalles = styled.h1`
+     
+   color: #018723;
+   font-size: 25px;
+    
+`;
+
+const precioDetalles = styled.h1`
+     
+   color: #000000;
+   font-size: 35px;
+    
+`;
+
+const descripcionD = styled.p`
+     
+   color: #000000;
+   font-size: 13px;
+    
+`;
+
+const iva = styled.p`
+     
+   color: #989898;
+   font-size: 15px;
+    
+`;
+
+const ba = styled.button`
+     
+   color: white;
+   width: 200px;
+    
+`;
+
+export const DescripcionD = descripcionD
+export const IVA = iva
+export const BA = ba
 export const BX = bx
+export const PreciosDetalles = precioDetalles
+export const TitleDetalles = titleDetalles
 export const ProfileM = Profile
 export const ImgS = Slayder
 export const MainDetalles = mainDetalles

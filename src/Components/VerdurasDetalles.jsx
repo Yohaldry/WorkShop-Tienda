@@ -1,8 +1,9 @@
   
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-import {MainDetalles, ProfileM, BX} from '../Styles/Rejistro_Styled'
+import {MainDetalles, ProfileM, BX, BA, IVA, TitleDetalles, PreciosDetalles, DescripcionD} from '../Styles/Rejistro_Styled'
 
 const VerdurasDetalles = () => {
 
@@ -28,13 +29,14 @@ const VerdurasDetalles = () => {
             <ProfileM src={info.imagen} alt="" />
             
         <div className="contenido_mostrar">
-
-                 <BX> <strong>X</strong> </BX>
-                 <h1>{info.nombre}</h1>
-                <h2>{info.precio}</h2>
-                <h5>{info.iva}</h5>
-                 <p>{info.descripcion}</p> 
-                 <button>Agregar</button>
+        
+     <Link to="/inicio"> <BX id="Salir"> <strong>X</strong> </BX></Link>
+   
+                 <TitleDetalles>{info.nombre}</TitleDetalles>
+                <PreciosDetalles>{info.precio}</PreciosDetalles>
+                <IVA>{info.iva}</IVA>
+                 <DescripcionD>{info.descripcion}</DescripcionD> 
+                 <BA className="btn btn-primary">Agregar</BA>
                  
         </div>
          </MainDetalles>
