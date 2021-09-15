@@ -1,9 +1,10 @@
 import React from 'react'
-import Inicio from './Inicio';
+
+import About from '../Routers/Routers';
 
 const General = () => {
     return ( 
-        <Inicio />
+        <About />
      );
 }
  

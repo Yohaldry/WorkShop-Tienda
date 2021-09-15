@@ -93,18 +93,57 @@ const PrecA = styled.h5`
     
 `;
 
-const Sep = styled.p`
+const cant = styled.span`
      
-    font-size: 20px;
-    color: #B8B4B4;
-    margin-left: 10px;
+     @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Poiret One', cursive;
+    
     
 `;
 
 
+const mainDetalles = styled.body`
+     
+     @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+    font-size: 16px;
+    background-color: #ffffff;
+    width: 700px;
+    height: 400px;
+    margin: 50px;
+    margin-left: 200px;
+    border-radius: 40px;
+    display: flex;
 
+`;
+
+const Profile = styled.img`
+ 
+    width: 280px;
+    height: 280px;
+    margin: 30px;
+    
+`;
+
+const bx = styled.button`
+     
+   width: 40px;
+   height: 40px;
+   border-radius: 100%;
+   margin-left: 280px;
+   margin-top: 30px;
+   background-color: black;
+   color: white;
+   border: none;
+    
+`;
+
+export const BX = bx
+export const ProfileM = Profile
 export const ImgS = Slayder
-export const SEPARADOR = Sep
+export const MainDetalles = mainDetalles
+export const C = cant
 export const Precio = Prec
 export const PreDes = PrecA
 export const Desuento = descuento
